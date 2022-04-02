@@ -1,0 +1,17 @@
+package com.PracticeProjectTask.sys;
+class priAcceModifier{
+	private void  display() {
+		System.out.println("you are in private class");
+		
+	}
+}
+public class PrivateAccess {
+
+	public static void main(String[] args) {
+		System.out.println("private access modifier");
+		priAcceModifier obj  =new priAcceModifier();
+		// TODO Auto-generated method stub
+		obj.display();
+	}
+
+}
